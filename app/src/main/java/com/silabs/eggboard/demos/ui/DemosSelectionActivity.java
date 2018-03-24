@@ -64,7 +64,7 @@ public class DemosSelectionActivity extends ThunderBoardActivity implements Demo
         component().inject(this);
 
         setSupportActionBar(toolbar);
-        toolbar.setBackgroundColor(getResourceColor(R.color.sl_terbium_green));
+        toolbar.setBackgroundColor(getResourceColor(R.color.sl_red_orange));
         toolbar.setTitle(getString(R.string.thunderboard));
 
         RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) toolbar.getLayoutParams();
