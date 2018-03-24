@@ -113,6 +113,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 27 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="library" name="com.android.support:multidex-1.0.2" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-27.1.0" level="project" />
     <orderEntry type="library" name="com.android.support:design-27.1.0" level="project" />
@@ -120,16 +121,33 @@
     <orderEntry type="library" name="com.google.firebase:firebase-core-9.0.0" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-basement-9.0.0" level="project" />
     <orderEntry type="library" name="com.android.support:transition-27.1.0" level="project" />
+=======
+    <orderEntry type="library" name="com.firebase:firebase-client-android:2.3.1@jar" level="project" />
+    <orderEntry type="library" name="org.glassfish:javax.annotation:10.0-b28@jar" level="project" />
+    <orderEntry type="library" name="com.google.code.gson:gson:2.4@jar" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-core-9.0.0" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-basement-9.0.0" level="project" />
+    <orderEntry type="library" name="com.jakewharton.timber:timber:3.1.0@jar" level="project" />
+>>>>>>> 7f3336eae784f489b3252acc300fe1f3e28fbab4
     <orderEntry type="library" name="com.google.firebase:firebase-analytics-9.0.0" level="project" />
     <orderEntry type="library" name="com.fasterxml.jackson.core:jackson-annotations:2.2.2@jar" level="project" />
     <orderEntry type="library" name="com.squareup.okhttp:okhttp:2.5.0@jar" level="project" />
     <orderEntry type="library" name="com.google.dagger:dagger:2.0.1@jar" level="project" />
+<<<<<<< HEAD
     <orderEntry type="library" name="com.android.support:recyclerview-v7-27.1.0" level="project" />
     <orderEntry type="library" name="com.firebase:tubesock:0.0.11@jar" level="project" />
+=======
+    <orderEntry type="library" name="com.firebase:tubesock:0.0.11@jar" level="project" />
+    <orderEntry type="library" name="io.reactivex:rxandroid-1.1.0" level="project" />
+>>>>>>> 7f3336eae784f489b3252acc300fe1f3e28fbab4
     <orderEntry type="library" name="com.fasterxml.jackson.core:jackson-core:2.2.2@jar" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-base-9.0.0" level="project" />
     <orderEntry type="library" name="io.reactivex:rxjava:1.1.3@jar" level="project" />
     <orderEntry type="library" name="com.fasterxml.jackson.core:jackson-databind:2.2.2@jar" level="project" />
+<<<<<<< HEAD
+=======
+    <orderEntry type="library" name="org.altbeacon:android-beacon-library-2.6.1" level="project" />
+>>>>>>> 7f3336eae784f489b3252acc300fe1f3e28fbab4
     <orderEntry type="library" name="com.google.firebase:firebase-iid-9.0.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-common-9.0.0" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-tasks-9.0.0" level="project" />
@@ -155,6 +173,7 @@
     <orderEntry type="library" name="com.jakewharton:butterknife:7.0.0@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-compat-27.1.0" level="project" />
     <orderEntry type="library" name="com.firebase:firebase-client-jvm:2.3.1@jar" level="project" />
+<<<<<<< HEAD
     <orderEntry type="library" name="com.android.support:support-core-ui-27.1.0" level="project" />
     <orderEntry type="library" name="__local_aars__:/home/kea/IqDoor/app/libs/gdx-1.6.5-SNAPSHOT.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.squareup.okio:okio:1.6.0@jar" level="project" />
@@ -165,5 +184,12 @@
     <orderEntry type="library" name="com.android.support:mediarouter-v7-27.1.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-v4-27.1.0" level="project" />
     <orderEntry type="library" name="android.arch.core:runtime-1.1.0" level="project" />
+=======
+    <orderEntry type="library" name="com.android.support:support-annotations:23.0.0@jar" level="project" />
+    <orderEntry type="library" name="com.squareup.okio:okio:1.6.0@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/DSkid48/Desktop/thunderboard-android/app/libs/gdx-backend-android-1.6.5-SNAPSHOT.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="com.squareup.retrofit:retrofit:1.9.0@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-v4-23.0.0" level="project" />
+>>>>>>> 7f3336eae784f489b3252acc300fe1f3e28fbab4
   </component>
 </module>
