@@ -34,7 +34,7 @@
             "outputFile": "/Users/DSkid48/Desktop/thunderboard-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "/Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/b5aaa68718801effdb8931745840df8d/res/values-v18/values-v18.xml",
+                    "source": "/Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/f1efb20cf3383036f098dbb003309b56/res/values-v18/values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -12,10 +12,10 @@ public final class BuildConfig {
   public static final String VERSION_NAME = "1.2.0";
   // Fields from default config.
   public static final String BRANCH_NAME = "master";
-  public static final String BUILD_TIME = "2018-03-04T00:32Z";
+  public static final String BUILD_TIME = "2018-03-24T20:22Z";
   public static final String CLOUD_DATA_URL = "null";
   public static final String CLOUD_DEMO_URL = "null";
-  public static final String GIT_SHA = "6a396bd";
+  public static final String GIT_SHA = "9eab65c";
   public static final String KEY_FIREBASE = "null";
   public static final String MICROSITE_URL = "http://www.silabs.com/thunderboard";
 }

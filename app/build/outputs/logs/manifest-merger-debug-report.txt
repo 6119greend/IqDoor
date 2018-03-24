@@ -4,17 +4,15 @@ ADDED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManif
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml:2:1-78:12
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml:2:1-78:12
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml:2:1-78:12
-MERGED from [com.android.support:mediarouter-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.3.0.aar/d53003be6e876d6b631afbc71a5fbae3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:design:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/f6056e3fc5c7a63ab034d7f583882e9d/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/b5aaa68718801effdb8931745840df8d/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:recyclerview-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.3.0.aar/022a429a28ca7726f67317cec62ba85c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.3.0.aar/53fab815e84b54e9d2f811fd37a80e2c/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:palette-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/palette-v7-23.3.0.aar/2c22b8dc50d8f5a5d6c53a6cd984ec5f/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:mediarouter-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.1.0.aar/5c1105bdbfaca40fe65054ad793be002/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/c6ed4e406bee5ef442c1e574fab131c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/f1efb20cf3383036f098dbb003309b56/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/7b6b221e7d1ec13193c20084eea09636/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/c4be17b19e0fdaa1c08694a389d52d59/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.0.aar/d3ac7f7e8b10f9016f1aa139fe22cbf6/AndroidManifest.xml:17:1-22:12
 MERGED from [io.reactivex:rxandroid:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/ceac2c5c858e49f184438e791c0aad4b/AndroidManifest.xml:15:1-21:12
 MERGED from [org.altbeacon:android-beacon-library:2.6.1] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.6.1.aar/7b6a48ce3f8d16b6be876c45431aa506/AndroidManifest.xml:2:1-37:12
 MERGED from [com.google.firebase:firebase-core:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-core-9.0.0.aar/47b02bc4894a738cbbded1cd22fe0d82/AndroidManifest.xml:2:1-6:12
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/ac85b0a7fd509c7b479a83af75a94838/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/4332c85b0c77806a803ffece0b476b56/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-analytics:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.0.aar/cf700b6dbc2e2b64649c92cecf9266e3/AndroidManifest.xml:16:1-42:12
 MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.0.aar/977377ab7a9419bd24e135878512c43f/AndroidManifest.xml:16:1-42:12
 MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/play-services-base-9.0.0.aar/33b02b41242c29a5cbe902af4b47c4fd/AndroidManifest.xml:16:1-24:12
@@ -22,7 +20,19 @@ MERGED from [com.google.firebase:firebase-iid:9.0.0] /Users/DSkid48/.gradle/cach
 MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.0.aar/1a3277ffdd1ea29b21522b4d2dc0420f/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.0.0.aar/181990de45d60843e71392db44395ad8/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.0.aar/6f0e6b488928e2f390ec2df5b073ff8d/AndroidManifest.xml:16:1-26:12
-MERGED from [com.android.support:support-v4:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/00ad657e3260941e3cebfe191e0aec8e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/f30c9c85e0df684baf36e0b58ea1117d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/1d51220c90714d6cdfab8f3567285a41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/08bb522262ea8559c2773d5defcb800c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/1c48275b382082a9f1382c5b6b590308/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/0face811ca48ca18cba956ae40cd92a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/7e3a307556cf9aa1fc90cd7bac420b83/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/ad3a834441330313b0e0e3f516bcbbc9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/855df5b1ff1c3dcc79fa3b4a3cc23680/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/bdc20d73ed9d37ba0375fc257fbf6b27/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/12ff907e733b7b7db4c07a5a3dd06ecc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d0b53f01f9f98af6cf5d8bf23efe3153/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/22975b8cb02e0f78e3a34ecf56b71058/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2892ca7be0baca943f77af0dbace8046/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml:2:1-78:12
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml:2:1-78:12
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml:2:1-78:12
@@ -84,24 +94,10 @@ ADDED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManif
 		ADDED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml:13:9-53
 application
 ADDED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml:16:5-76:19
-MERGED from [com.android.support:mediarouter-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.3.0.aar/d53003be6e876d6b631afbc71a5fbae3/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:mediarouter-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.3.0.aar/d53003be6e876d6b631afbc71a5fbae3/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/f6056e3fc5c7a63ab034d7f583882e9d/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/f6056e3fc5c7a63ab034d7f583882e9d/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/b5aaa68718801effdb8931745840df8d/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/b5aaa68718801effdb8931745840df8d/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:cardview-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.3.0.aar/53fab815e84b54e9d2f811fd37a80e2c/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.3.0.aar/53fab815e84b54e9d2f811fd37a80e2c/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:palette-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/palette-v7-23.3.0.aar/2c22b8dc50d8f5a5d6c53a6cd984ec5f/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:palette-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/palette-v7-23.3.0.aar/2c22b8dc50d8f5a5d6c53a6cd984ec5f/AndroidManifest.xml:22:5-23:19
 MERGED from [org.altbeacon:android-beacon-library:2.6.1] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.6.1.aar/7b6a48ce3f8d16b6be876c45431aa506/AndroidManifest.xml:16:5-35:19
 MERGED from [org.altbeacon:android-beacon-library:2.6.1] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.6.1.aar/7b6a48ce3f8d16b6be876c45431aa506/AndroidManifest.xml:16:5-35:19
 MERGED from [com.google.firebase:firebase-core:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-core-9.0.0.aar/47b02bc4894a738cbbded1cd22fe0d82/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-core-9.0.0.aar/47b02bc4894a738cbbded1cd22fe0d82/AndroidManifest.xml:5:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/ac85b0a7fd509c7b479a83af75a94838/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/ac85b0a7fd509c7b479a83af75a94838/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/4332c85b0c77806a803ffece0b476b56/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/4332c85b0c77806a803ffece0b476b56/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.0.aar/cf700b6dbc2e2b64649c92cecf9266e3/AndroidManifest.xml:26:5-41:19
 MERGED from [com.google.firebase:firebase-analytics:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.0.aar/cf700b6dbc2e2b64649c92cecf9266e3/AndroidManifest.xml:26:5-41:19
 MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.0.aar/977377ab7a9419bd24e135878512c43f/AndroidManifest.xml:26:5-41:19
@@ -116,8 +112,6 @@ MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/DSkid48/.g
 MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.0.0.aar/181990de45d60843e71392db44395ad8/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.0.aar/6f0e6b488928e2f390ec2df5b073ff8d/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.0.aar/6f0e6b488928e2f390ec2df5b073ff8d/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/00ad657e3260941e3cebfe191e0aec8e/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/00ad657e3260941e3cebfe191e0aec8e/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml:20:9-41
 	android:largeHeap
@@ -214,28 +208,24 @@ uses-sdk
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:mediarouter-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.3.0.aar/d53003be6e876d6b631afbc71a5fbae3/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:mediarouter-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.3.0.aar/d53003be6e876d6b631afbc71a5fbae3/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/f6056e3fc5c7a63ab034d7f583882e9d/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/design-23.3.0.aar/f6056e3fc5c7a63ab034d7f583882e9d/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/b5aaa68718801effdb8931745840df8d/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/b5aaa68718801effdb8931745840df8d/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:recyclerview-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.3.0.aar/022a429a28ca7726f67317cec62ba85c/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.3.0.aar/022a429a28ca7726f67317cec62ba85c/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.3.0.aar/53fab815e84b54e9d2f811fd37a80e2c/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.3.0.aar/53fab815e84b54e9d2f811fd37a80e2c/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/palette-v7-23.3.0.aar/2c22b8dc50d8f5a5d6c53a6cd984ec5f/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/palette-v7-23.3.0.aar/2c22b8dc50d8f5a5d6c53a6cd984ec5f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.1.0.aar/5c1105bdbfaca40fe65054ad793be002/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.1.0.aar/5c1105bdbfaca40fe65054ad793be002/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/c6ed4e406bee5ef442c1e574fab131c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/c6ed4e406bee5ef442c1e574fab131c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/f1efb20cf3383036f098dbb003309b56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/f1efb20cf3383036f098dbb003309b56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/7b6b221e7d1ec13193c20084eea09636/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/7b6b221e7d1ec13193c20084eea09636/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/c4be17b19e0fdaa1c08694a389d52d59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/c4be17b19e0fdaa1c08694a389d52d59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.0.aar/d3ac7f7e8b10f9016f1aa139fe22cbf6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/palette-v7-27.1.0.aar/d3ac7f7e8b10f9016f1aa139fe22cbf6/AndroidManifest.xml:20:5-44
 MERGED from [io.reactivex:rxandroid:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/ceac2c5c858e49f184438e791c0aad4b/AndroidManifest.xml:19:5-43
 MERGED from [io.reactivex:rxandroid:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/ceac2c5c858e49f184438e791c0aad4b/AndroidManifest.xml:19:5-43
 MERGED from [org.altbeacon:android-beacon-library:2.6.1] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.6.1.aar/7b6a48ce3f8d16b6be876c45431aa506/AndroidManifest.xml:7:5-9:41
 MERGED from [org.altbeacon:android-beacon-library:2.6.1] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.6.1.aar/7b6a48ce3f8d16b6be876c45431aa506/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-core:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-core-9.0.0.aar/47b02bc4894a738cbbded1cd22fe0d82/AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-core:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-core-9.0.0.aar/47b02bc4894a738cbbded1cd22fe0d82/AndroidManifest.xml:4:5-42
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/ac85b0a7fd509c7b479a83af75a94838/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.3.0.aar/ac85b0a7fd509c7b479a83af75a94838/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/4332c85b0c77806a803ffece0b476b56/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.3.0.aar/4332c85b0c77806a803ffece0b476b56/AndroidManifest.xml:5:5-43
 MERGED from [com.google.firebase:firebase-analytics:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.0.aar/cf700b6dbc2e2b64649c92cecf9266e3/AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.0.aar/cf700b6dbc2e2b64649c92cecf9266e3/AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.0.aar/977377ab7a9419bd24e135878512c43f/AndroidManifest.xml:18:5-42
@@ -250,12 +240,34 @@ MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/DSkid48/.g
 MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.0.0.aar/181990de45d60843e71392db44395ad8/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.0.aar/6f0e6b488928e2f390ec2df5b073ff8d/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.0.aar/6f0e6b488928e2f390ec2df5b073ff8d/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/00ad657e3260941e3cebfe191e0aec8e/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-v4-23.3.0.aar/00ad657e3260941e3cebfe191e0aec8e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/f30c9c85e0df684baf36e0b58ea1117d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/f30c9c85e0df684baf36e0b58ea1117d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/1d51220c90714d6cdfab8f3567285a41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/1d51220c90714d6cdfab8f3567285a41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/08bb522262ea8559c2773d5defcb800c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/08bb522262ea8559c2773d5defcb800c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/1c48275b382082a9f1382c5b6b590308/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/1c48275b382082a9f1382c5b6b590308/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/0face811ca48ca18cba956ae40cd92a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/0face811ca48ca18cba956ae40cd92a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/7e3a307556cf9aa1fc90cd7bac420b83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/7e3a307556cf9aa1fc90cd7bac420b83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/ad3a834441330313b0e0e3f516bcbbc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/ad3a834441330313b0e0e3f516bcbbc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/855df5b1ff1c3dcc79fa3b4a3cc23680/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/855df5b1ff1c3dcc79fa3b4a3cc23680/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/bdc20d73ed9d37ba0375fc257fbf6b27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/bdc20d73ed9d37ba0375fc257fbf6b27/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/12ff907e733b7b7db4c07a5a3dd06ecc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/12ff907e733b7b7db4c07a5a3dd06ecc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d0b53f01f9f98af6cf5d8bf23efe3153/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d0b53f01f9f98af6cf5d8bf23efe3153/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/22975b8cb02e0f78e3a34ecf56b71058/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/22975b8cb02e0f78e3a34ecf56b71058/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2892ca7be0baca943f77af0dbace8046/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2892ca7be0baca943f77af0dbace8046/AndroidManifest.xml:20:5-44
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.3.0] /Users/DSkid48/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.3.0.aar/b5aaa68718801effdb8931745840df8d/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/DSkid48/Desktop/thunderboard-android/app/src/main/AndroidManifest.xml
