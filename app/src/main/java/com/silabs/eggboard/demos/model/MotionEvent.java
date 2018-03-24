@@ -1,6 +1,6 @@
-package com.silabs.thunderboard.demos.model;
+package com.silabs.eggboard.demos.model;
 
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
 
 import java.util.UUID;
 

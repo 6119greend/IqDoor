@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.common.data.model;
+package com.silabs.eggboard.common.data.model;
 
 import java.util.Locale;
 import java.util.Map;

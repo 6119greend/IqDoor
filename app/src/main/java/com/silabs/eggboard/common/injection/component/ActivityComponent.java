@@ -1,15 +1,15 @@
-package com.silabs.thunderboard.common.injection.component;
+package com.silabs.eggboard.common.injection.component;
 
-import com.silabs.thunderboard.demos.ui.DemoEnvironmentActivity;
-import com.silabs.thunderboard.common.injection.scope.ActivityScope;
-import com.silabs.thunderboard.common.ui.ThunderBoardStatusFragment;
-import com.silabs.thunderboard.demos.ui.DemoIOActivity;
-import com.silabs.thunderboard.demos.ui.DemoMotionActivity;
-import com.silabs.thunderboard.demos.ui.DemosSelectionActivity;
-import com.silabs.thunderboard.scanner.ui.ScannerActivity;
-import com.silabs.thunderboard.settings.ui.BeaconNotificationsActivity;
-import com.silabs.thunderboard.settings.ui.SettingsActivity;
-import com.silabs.thunderboard.settings.ui.SettingsEditActivity;
+import com.silabs.eggboard.demos.ui.DemoEnvironmentActivity;
+import com.silabs.eggboard.common.injection.scope.ActivityScope;
+import com.silabs.eggboard.common.ui.ThunderBoardStatusFragment;
+import com.silabs.eggboard.demos.ui.DemoIOActivity;
+import com.silabs.eggboard.demos.ui.DemoMotionActivity;
+import com.silabs.eggboard.demos.ui.DemosSelectionActivity;
+import com.silabs.eggboard.scanner.ui.ScannerActivity;
+import com.silabs.eggboard.settings.ui.BeaconNotificationsActivity;
+import com.silabs.eggboard.settings.ui.SettingsActivity;
+import com.silabs.eggboard.settings.ui.SettingsEditActivity;
 
 import dagger.Component;
 

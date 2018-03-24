@@ -1,10 +1,9 @@
-package com.silabs.thunderboard.common.ui;
+package com.silabs.eggboard.common.ui;
 
 import static android.bluetooth.BluetoothProfile.*;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Fragment;
 import android.content.DialogInterface;
@@ -17,12 +16,12 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.app.ThunderBoardConstants;
-import com.silabs.thunderboard.common.app.ThunderBoardType;
-import com.silabs.thunderboard.common.injection.component.ActivityComponent;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
-import com.silabs.thunderboard.demos.ui.BaseDemoActivity;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.app.ThunderBoardConstants;
+import com.silabs.eggboard.common.app.ThunderBoardType;
+import com.silabs.eggboard.common.injection.component.ActivityComponent;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.demos.ui.BaseDemoActivity;
 
 import javax.inject.Inject;
 

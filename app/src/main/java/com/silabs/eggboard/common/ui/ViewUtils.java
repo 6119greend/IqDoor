@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.common.ui;
+package com.silabs.eggboard.common.ui;
 
 import android.os.Build;
 import android.support.annotation.StyleRes;

@@ -1,6 +1,6 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
-import static com.silabs.thunderboard.common.data.model.ThunderBoardPreferences.MODEL_TYPE_BOARD;
+import static com.silabs.eggboard.common.data.model.ThunderBoardPreferences.MODEL_TYPE_BOARD;
 
 import android.graphics.Color;
 import android.support.annotation.ColorInt;
@@ -28,7 +28,7 @@ import com.badlogic.gdx.graphics.g3d.shaders.DefaultShader;
 import com.badlogic.gdx.graphics.g3d.utils.BaseShaderProvider;
 import com.badlogic.gdx.graphics.g3d.utils.CameraInputController;
 import com.badlogic.gdx.math.Matrix4;
-import com.silabs.thunderboard.common.app.ThunderBoardType;
+import com.silabs.eggboard.common.app.ThunderBoardType;
 
 import java.util.ArrayList;
 import java.util.List;

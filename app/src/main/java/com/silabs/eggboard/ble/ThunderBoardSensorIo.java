@@ -1,8 +1,8 @@
-package com.silabs.thunderboard.ble;
+package com.silabs.eggboard.ble;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.silabs.thunderboard.demos.model.LedRGBState;
+import com.silabs.eggboard.demos.model.LedRGBState;
 
 public class ThunderBoardSensorIo extends ThunderBoardSensor {
 

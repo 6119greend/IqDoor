@@ -1,14 +1,14 @@
-package com.silabs.thunderboard.common.app;
+package com.silabs.eggboard.common.app;
 
 import android.app.Application;
 
-import com.silabs.thunderboard.BuildConfig;
-import com.silabs.thunderboard.ble.BleManager;
-import com.silabs.thunderboard.common.injection.component.DaggerThunderBoardComponent;
-import com.silabs.thunderboard.common.injection.component.ThunderBoardComponent;
-import com.silabs.thunderboard.common.injection.module.ThunderBoardModule;
-import com.silabs.thunderboard.common.log.ApplicationDebugTree;
-import com.silabs.thunderboard.web.CloudManager;
+import com.silabs.eggboard.BuildConfig;
+import com.silabs.eggboard.ble.BleManager;
+import com.silabs.eggboard.common.injection.component.DaggerThunderBoardComponent;
+import com.silabs.eggboard.common.injection.component.ThunderBoardComponent;
+import com.silabs.eggboard.common.injection.module.ThunderBoardModule;
+import com.silabs.eggboard.common.log.ApplicationDebugTree;
+import com.silabs.eggboard.web.CloudManager;
 
 import javax.inject.Inject;
 

@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.silabs.thunderboard.R;
+import com.silabs.eggboard.R;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

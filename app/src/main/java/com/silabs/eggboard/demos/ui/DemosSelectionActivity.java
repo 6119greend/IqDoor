@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.bluetooth.BluetoothProfile;
 import android.content.Intent;
@@ -13,17 +13,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import com.silabs.thunderboard.BuildConfig;
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.app.ThunderBoardApplication;
-import com.silabs.thunderboard.common.injection.component.ActivityComponent;
-import com.silabs.thunderboard.common.injection.component.DaggerActivityComponent;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
-import com.silabs.thunderboard.common.app.ThunderBoardConstants;
-import com.silabs.thunderboard.common.ui.ThunderBoardActivity;
-import com.silabs.thunderboard.demos.model.Demo;
-import com.silabs.thunderboard.scanner.ui.ScannerActivity;
-import com.silabs.thunderboard.settings.ui.SettingsActivity;
+import com.silabs.eggboard.BuildConfig;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.app.ThunderBoardApplication;
+import com.silabs.eggboard.common.injection.component.ActivityComponent;
+import com.silabs.eggboard.common.injection.component.DaggerActivityComponent;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.common.app.ThunderBoardConstants;
+import com.silabs.eggboard.common.ui.ThunderBoardActivity;
+import com.silabs.eggboard.demos.model.Demo;
+import com.silabs.eggboard.scanner.ui.ScannerActivity;
+import com.silabs.eggboard.settings.ui.SettingsActivity;
 
 import org.altbeacon.beacon.Beacon;
 
@@ -191,14 +191,14 @@ public class DemosSelectionActivity extends ThunderBoardActivity implements Demo
                 R.drawable.ic_motion,
                 DemoMotionActivity.class,
                 DemoMotionActivity.isDemoAllowed()));
-        demosList.add(new Demo(getString(R.string.demo_environment),
+        /*demosList.add(new Demo(getString(R.string.demo_environment),
                 R.drawable.ic_environmental,
                 DemoEnvironmentActivity.class,
                 DemoEnvironmentActivity.isDemoAllowed()));
         demosList.add(new Demo(getString(R.string.demo_io),
                 R.drawable.ic_io,
                 DemoIOActivity.class,
-                DemoIOActivity.isDemoAllowed()));
+                DemoIOActivity.isDemoAllowed()));*/
     }
 
     @Override

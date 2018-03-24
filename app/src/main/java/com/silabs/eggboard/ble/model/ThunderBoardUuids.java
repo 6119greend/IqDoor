@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.ble.model;
+package com.silabs.eggboard.ble.model;
 
 import java.util.UUID;
 

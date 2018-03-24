@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.settings.ui;
+package com.silabs.eggboard.settings.ui;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
 
 import java.util.List;
 

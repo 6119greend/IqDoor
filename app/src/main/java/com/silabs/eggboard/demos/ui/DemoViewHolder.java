@@ -1,11 +1,11 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.silabs.thunderboard.R;
+import com.silabs.eggboard.R;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

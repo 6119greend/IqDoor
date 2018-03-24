@@ -10,7 +10,7 @@
         tools:text="@string/environment_humidity" />
 
     <FrameLayout style="@style/envbox">
-        <com.silabs.thunderboard.demos.ui.DemoEnvironmentHumidityControl
+        <com.silabs.eggboard.demos.ui.DemoEnvironmentHumidityControl
             android:id="@+id/humidity"
             style="@style/envcontrol" />
     </FrameLayout>

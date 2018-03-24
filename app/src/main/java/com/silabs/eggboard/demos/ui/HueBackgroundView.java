@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -9,7 +9,7 @@ import android.graphics.Shader;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.silabs.thunderboard.R;
+import com.silabs.eggboard.R;
 
 public class HueBackgroundView extends View {
 

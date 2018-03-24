@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Thunderboard</string>
-    <string name="thunderboard">Thunderboard</string>
+    <string name="app_name">Eggboard</string>
+    <string name="thunderboard">Eggboard</string>
+    <string name="Eggboard">Eggboard</string>
     <string name="ok">OK</string>
 
     <string name="action_settings">Settings</string>
@@ -66,7 +67,7 @@
     <string name="settings_version" formatted="false">Version %s | &#169; Silicon Labs %s </string>
 
     <string name="demos">Demos</string>
-    <string name="demo_motion">Motion</string>
+    <string name="demo_motion">Door Motion</string>
     <string name="demo_environment">Environment</string>
     <string name="demo_io">I/O</string>
 

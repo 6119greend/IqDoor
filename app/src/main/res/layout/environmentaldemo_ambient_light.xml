@@ -11,7 +11,7 @@
 
     <FrameLayout style="@style/envbox">
 
-        <com.silabs.thunderboard.demos.ui.DemoEnvironmentAmbientLightControl
+        <com.silabs.eggboard.demos.ui.DemoEnvironmentAmbientLightControl
             android:id="@+id/ambient_light"
             style="@style/envcontrol" />
     </FrameLayout>

@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.settings.ui;
+package com.silabs.eggboard.settings.ui;
 
 import android.content.Intent;
 import android.graphics.PorterDuff;
@@ -13,12 +13,12 @@ import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.silabs.thunderboard.BuildConfig;
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.app.ThunderBoardConstants;
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
-import com.silabs.thunderboard.common.ui.ThunderBoardActivity;
+import com.silabs.eggboard.BuildConfig;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.app.ThunderBoardConstants;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.common.ui.ThunderBoardActivity;
 
 import javax.inject.Inject;
 

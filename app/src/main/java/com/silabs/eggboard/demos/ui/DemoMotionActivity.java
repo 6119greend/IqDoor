@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -13,10 +13,10 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.app.ThunderBoardType;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
-import com.silabs.thunderboard.demos.model.LedRGBState;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.app.ThunderBoardType;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.demos.model.LedRGBState;
 
 import javax.inject.Inject;
 
@@ -130,13 +130,13 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
 
         assetType = prefsManager.getPreferences().modelType;
         if (presenter.getThunderBoardType() == ThunderBoardType.THUNDERBOARD_SENSE || assetType == ThunderBoardPreferences.MODEL_TYPE_BOARD) {
-            setupBoardView();
+            //setupBoardView();
         }
 
         // temp
         setOrientation(0f, 0f, 0f);
         setAcceleration(0f, 0f, 0f);
-        setSpeed(0f, 0, 0);
+        //setSpeed(0f, 0, 0);
         setDistance(0f, 0, 0);
 
         gdxAdapter = new DemoMotionGdxAdapter(getContext().getResources().getColor(R.color.sl_light_grey), assetType, presenter.getThunderBoardType());
@@ -149,7 +149,7 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
         presenter.clearViewListener();
     }
 
-    private void setupBoardView() {
+    /*private void setupBoardView() {
 
         int padding = getResources().getDimensionPixelSize(R.dimen.motion_speed_dist_padding);
 
@@ -174,7 +174,7 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
         } else {
             setWheelDiameterText();
         }
-    }
+    }*/
 
     @Override
     protected BaseDemoPresenter getDemoPresenter() {
@@ -206,9 +206,14 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
     @Override
     public void setAcceleration(float x, float y, float z) {
         String accelerationString = getString(R.string.motion_acceleration_g);
-        accelerationX.setText(String.format(accelerationString, x));
-        accelerationY.setText(String.format(accelerationString, y));
-        accelerationZ.setText(String.format(accelerationString, z));
+        if(checkMotion(y)){
+            accelerationX.setText("Motion Detected");
+        }else{
+            accelerationX.setText("No Motion");
+        }
+      //  accelerationX.setText(String.format(accelerationString, x));
+      //  accelerationY.setText(String.format(accelerationString, y));
+       // accelerationZ.setText(String.format(accelerationString, z));
     }
 
     /**
@@ -225,14 +230,14 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
      */
     @Override
     public void setOrientation(float x, float y, float z) {
-        String degreeString = getString(R.string.motion_orientation_degree);
-        orientationX.setText(String.format(degreeString, x));
-        orientationY.setText(String.format(degreeString, y));
-        orientationZ.setText(String.format(degreeString, z));
+        //String degreeString = getString(R.string.motion_orientation_degree);
+        //orientationX.setText(String.format(degreeString, x));
+        //orientationY.setText(String.format(degreeString, y));
+        //orientationZ.setText(String.format(degreeString, z));
 
-        if (gdxAdapter != null) {
-            gdxAdapter.setOrientation(x, y, z);
-        }
+        //if (gdxAdapter != null) {
+        //    gdxAdapter.setOrientation(x, y, z);
+        //}
     }
 
     /**
@@ -291,13 +296,13 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
      */
     @Override
     public void setDistance(double distance, int revolutions, int measurementsType) {
-        distanceText.setText(String.format("%.1f", distance));
-        if (measurementsType == ThunderBoardPreferences.UNIT_METRIC) {
-            distanceUnitsText.setText(getString(R.string.motion_meters));
-        } else {
-            distanceUnitsText.setText(getString(R.string.motion_feet));
-        }
-        revolutionsText.setText(String.valueOf(revolutions));
+        //distanceText.setText(String.format("%.1f", distance));
+        //if (measurementsType == ThunderBoardPreferences.UNIT_METRIC) {
+        //    distanceUnitsText.setText(getString(R.string.motion_meters));
+        //} else {
+        //    distanceUnitsText.setText(getString(R.string.motion_feet));
+        //}
+        //revolutionsText.setText(String.valueOf(revolutions));
     }
 
     /**
@@ -384,5 +389,12 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
 
         gdx3dView = initializeForView(gdxAdapter, config);
         carAnimationHolder.addView(gdx3dView);
+    }
+    public static boolean checkMotion(float x){
+        if(x > .1 || x < -.1){
+            return true;
+        }else{
+            return false;
+        }
     }
 }

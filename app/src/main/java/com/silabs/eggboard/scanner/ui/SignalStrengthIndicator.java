@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.scanner.ui;
+package com.silabs.eggboard.scanner.ui;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.silabs.thunderboard.R;
+import com.silabs.eggboard.R;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

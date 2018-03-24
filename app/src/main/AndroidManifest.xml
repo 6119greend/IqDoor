@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.silabs.thunderboard">
+    package="com.silabs.eggboard">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,15 +14,15 @@
         android:required="true" />
 
     <application
-        android:name=".common.app.ThunderBoardApplication"
+        android:name="com.silabs.eggboard.common.app.ThunderBoardApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/Eggboard"
         android:largeHeap="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".scanner.ui.ScannerActivity"
-            android:label="@string/app_name"
+            android:name="com.silabs.eggboard.scanner.ui.ScannerActivity"
+            android:label="@string/Eggboard"
             android:screenOrientation="portrait"
             android:theme="@style/StatusBarTranslucentTheme">
             <intent-filter>
@@ -31,46 +31,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".settings.ui.SettingsActivity"
+            android:name="com.silabs.eggboard.settings.ui.SettingsActivity"
             android:label="@string/action_settings"
             android:screenOrientation="portrait"
             android:theme="@style/StatusBarTranslucentTheme" />
         <activity
-            android:name=".settings.ui.SettingsEditActivity"
+            android:name="com.silabs.eggboard.settings.ui.SettingsEditActivity"
             android:label="@string/settings_personal_info"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".demos.ui.DemosSelectionActivity"
+            android:name="com.silabs.eggboard.demos.ui.DemosSelectionActivity"
             android:label="@string/thunderboard"
-            android:parentActivityName=".scanner.ui.ScannerActivity"
+            android:parentActivityName="com.silabs.eggboard.scanner.ui.ScannerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/StatusBarTranslucentTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".scanner.ui.ScannerActivity" />
+                android:value="com.silabs.eggboard.scanner.ui.ScannerActivity" />
         </activity>
-        <activity
-            android:name=".demos.ui.DemoMotionActivity"
+       <activity
+            android:name="com.silabs.eggboard.demos.ui.DemoMotionActivity"
             android:label="@string/demo_motion"
-            android:parentActivityName=".scanner.ui.ScannerActivity"
+            android:parentActivityName="com.silabs.eggboard.scanner.ui.ScannerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/StatusBarTranslucentTheme" />
-        <activity
-            android:name=".demos.ui.DemoEnvironmentActivity"
+       <!-- <activity
+            android:name="com.silabs.eggboard.demos.ui.DemoEnvironmentActivity"
             android:label="@string/demo_environment"
-            android:parentActivityName=".scanner.ui.ScannerActivity"
+            android:parentActivityName="com.silabs.eggboard.scanner.ui.ScannerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/StatusBarTranslucentTheme" />
         <activity
-            android:name=".demos.ui.DemoIOActivity"
+            android:name="com.silabs.eggboard.demos.ui.DemoIOActivity"
             android:label="@string/demo_io"
-            android:parentActivityName=".scanner.ui.ScannerActivity"
+            android:parentActivityName="com.silabs.eggboard.scanner.ui.ScannerActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/StatusBarTranslucentTheme" />
+            android:theme="@style/StatusBarTranslucentTheme" /> -->
         <activity
-            android:name=".settings.ui.BeaconNotificationsActivity"
+            android:name="com.silabs.eggboard.settings.ui.BeaconNotificationsActivity"
             android:label="@string/settings_beacon_notifications"
-            android:parentActivityName=".settings.ui.SettingsActivity"
+            android:parentActivityName="com.silabs.eggboard.settings.ui.SettingsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/StatusBarTranslucentTheme" />
     </application>

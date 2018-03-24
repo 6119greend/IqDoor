@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.ble;
+package com.silabs.eggboard.ble;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -17,22 +17,22 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 import android.widget.Toast;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
-import com.silabs.thunderboard.ble.model.ThunderBoardUuids;
-import com.silabs.thunderboard.ble.util.BleUtils;
-import com.silabs.thunderboard.common.app.ThunderBoardConstants;
-import com.silabs.thunderboard.common.app.ThunderBoardType;
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
-import com.silabs.thunderboard.common.injection.qualifier.ForApplication;
-import com.silabs.thunderboard.demos.model.EnvironmentEvent;
-import com.silabs.thunderboard.demos.model.HallState;
-import com.silabs.thunderboard.demos.model.LedRGBState;
-import com.silabs.thunderboard.demos.model.MotionEvent;
-import com.silabs.thunderboard.demos.model.NotificationEvent;
-import com.silabs.thunderboard.demos.model.StatusEvent;
-import com.silabs.thunderboard.demos.ui.DemosSelectionActivity;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.ble.model.ThunderBoardUuids;
+import com.silabs.eggboard.ble.util.BleUtils;
+import com.silabs.eggboard.common.app.ThunderBoardConstants;
+import com.silabs.eggboard.common.app.ThunderBoardType;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.common.injection.qualifier.ForApplication;
+import com.silabs.eggboard.demos.model.EnvironmentEvent;
+import com.silabs.eggboard.demos.model.HallState;
+import com.silabs.eggboard.demos.model.LedRGBState;
+import com.silabs.eggboard.demos.model.MotionEvent;
+import com.silabs.eggboard.demos.model.NotificationEvent;
+import com.silabs.eggboard.demos.model.StatusEvent;
+import com.silabs.eggboard.demos.ui.DemosSelectionActivity;
 
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconManager;

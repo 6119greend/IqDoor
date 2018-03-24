@@ -1,11 +1,11 @@
-package com.silabs.thunderboard.common.injection.module;
+package com.silabs.eggboard.common.injection.module;
 
 import android.content.Context;
 
-import com.silabs.thunderboard.common.injection.qualifier.ForCloudData;
-import com.silabs.thunderboard.common.injection.qualifier.ForApplication;
-import com.silabs.thunderboard.common.injection.qualifier.ForCloudDemo;
-import com.silabs.thunderboard.common.injection.qualifier.ForCloudKeyFirebase;
+import com.silabs.eggboard.common.injection.qualifier.ForCloudData;
+import com.silabs.eggboard.common.injection.qualifier.ForApplication;
+import com.silabs.eggboard.common.injection.qualifier.ForCloudDemo;
+import com.silabs.eggboard.common.injection.qualifier.ForCloudKeyFirebase;
 
 import javax.inject.Singleton;
 

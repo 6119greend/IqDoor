@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.common.log;
+package com.silabs.eggboard.common.log;
 
 import android.util.Log;
 

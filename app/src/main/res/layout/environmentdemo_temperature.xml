@@ -11,7 +11,7 @@
 
     <FrameLayout style="@style/envbox">
 
-        <com.silabs.thunderboard.demos.ui.DemoEnvironmentTemperatureControl
+        <com.silabs.eggboard.demos.ui.DemoEnvironmentTemperatureControl
             android:id="@+id/temperature"
             style="@style/envcontrol" />
     </FrameLayout>

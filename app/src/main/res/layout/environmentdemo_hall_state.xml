@@ -15,7 +15,7 @@
 
     <FrameLayout style="@style/envbox">
 
-        <com.silabs.thunderboard.demos.ui.DemoEnvironmentHallStateControl
+        <com.silabs.eggboard.demos.ui.DemoEnvironmentHallStateControl
             android:id="@+id/hall_state"
             style="@style/envcontrol"
             />

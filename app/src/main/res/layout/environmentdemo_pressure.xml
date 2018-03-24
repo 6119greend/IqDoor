@@ -10,7 +10,7 @@
         tools:text="@string/environment_pressure" />
 
     <FrameLayout style="@style/envbox">
-        <com.silabs.thunderboard.demos.ui.DemoEnvironmentPressureControl
+        <com.silabs.eggboard.demos.ui.DemoEnvironmentPressureControl
             android:id="@+id/pressure"
             style="@style/envcontrol" />
     </FrameLayout>

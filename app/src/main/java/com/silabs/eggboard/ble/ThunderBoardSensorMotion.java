@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.ble;
+package com.silabs.eggboard.ble;
 
 import android.os.SystemClock;
 

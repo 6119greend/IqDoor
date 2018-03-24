@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,9 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.app.ThunderBoardConstants;
-import com.silabs.thunderboard.demos.model.Demo;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.app.ThunderBoardConstants;
+import com.silabs.eggboard.demos.model.Demo;
 
 import java.util.List;
 

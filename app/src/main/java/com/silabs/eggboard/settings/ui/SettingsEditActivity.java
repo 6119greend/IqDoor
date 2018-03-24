@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.settings.ui;
+package com.silabs.eggboard.settings.ui;
 
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -7,13 +7,13 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.ToggleButton;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.app.ThunderBoardApplication;
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
-import com.silabs.thunderboard.common.injection.component.ActivityComponent;
-import com.silabs.thunderboard.common.injection.component.DaggerActivityComponent;
-import com.silabs.thunderboard.common.ui.ThunderBoardActivity;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.app.ThunderBoardApplication;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.common.injection.component.ActivityComponent;
+import com.silabs.eggboard.common.injection.component.DaggerActivityComponent;
+import com.silabs.eggboard.common.ui.ThunderBoardActivity;
 
 import javax.inject.Inject;
 

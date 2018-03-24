@@ -1,6 +1,6 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
-import com.silabs.thunderboard.demos.model.HallState;
+import com.silabs.eggboard.demos.model.HallState;
 
 public interface DemoEnvironmentListener extends BaseDemoViewListener {
 

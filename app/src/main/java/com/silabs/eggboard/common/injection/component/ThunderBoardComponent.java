@@ -1,10 +1,10 @@
-package com.silabs.thunderboard.common.injection.component;
+package com.silabs.eggboard.common.injection.component;
 
-import com.silabs.thunderboard.common.app.ThunderBoardApplication;
-import com.silabs.thunderboard.web.CloudManager;
-import com.silabs.thunderboard.ble.BleManager;
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.common.injection.module.ThunderBoardModule;
+import com.silabs.eggboard.common.app.ThunderBoardApplication;
+import com.silabs.eggboard.web.CloudManager;
+import com.silabs.eggboard.ble.BleManager;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.common.injection.module.ThunderBoardModule;
 
 import javax.inject.Singleton;
 

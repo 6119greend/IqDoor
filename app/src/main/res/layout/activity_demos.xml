@@ -30,7 +30,7 @@
     </RelativeLayout>
 
     <fragment
-        android:name="com.silabs.thunderboard.common.ui.ThunderBoardStatusFragment"
+        android:name="com.silabs.eggboard.common.ui.ThunderBoardStatusFragment"
         android:id="@+id/bluegecko_status_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

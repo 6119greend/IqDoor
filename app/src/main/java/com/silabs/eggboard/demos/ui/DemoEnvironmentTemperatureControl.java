@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -8,8 +8,8 @@ import android.view.Gravity;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
 
 /**
  * Displays an icon and the temperature value in a combo control.

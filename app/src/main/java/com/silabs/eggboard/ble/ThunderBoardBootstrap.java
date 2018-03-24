@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.ble;
+package com.silabs.eggboard.ble;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,6 @@ import org.altbeacon.beacon.BeaconManager;
 import org.altbeacon.beacon.Identifier;
 import org.altbeacon.beacon.RangeNotifier;
 import org.altbeacon.beacon.Region;
-import org.altbeacon.beacon.startup.BootstrapNotifier;
 
 import java.util.ArrayList;
 import java.util.List;

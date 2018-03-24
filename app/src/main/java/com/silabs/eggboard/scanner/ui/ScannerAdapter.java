@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.scanner.ui;
+package com.silabs.eggboard.scanner.ui;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.common.injection.qualifier;
+package com.silabs.eggboard.common.injection.qualifier;
 
 import java.lang.annotation.Retention;
 

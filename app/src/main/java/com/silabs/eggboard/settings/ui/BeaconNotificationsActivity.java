@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.settings.ui;
+package com.silabs.eggboard.settings.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -10,11 +10,11 @@ import android.widget.CompoundButton;
 import android.widget.RelativeLayout;
 import android.widget.Switch;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.app.ThunderBoardConstants;
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
-import com.silabs.thunderboard.common.ui.ThunderBoardActivity;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.app.ThunderBoardConstants;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.common.ui.ThunderBoardActivity;
 
 import java.util.ArrayList;
 import java.util.Map;

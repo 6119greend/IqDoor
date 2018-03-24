@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.demos.model;
+package com.silabs.eggboard.demos.model;
 
 public class Demo {
     public String demoName;

@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.common.ui;
+package com.silabs.eggboard.common.ui;
 
 import android.annotation.TargetApi;
 import android.app.NotificationManager;
@@ -15,10 +15,10 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.app.ThunderBoardApplication;
-import com.silabs.thunderboard.common.injection.component.ActivityComponent;
-import com.silabs.thunderboard.common.injection.component.DaggerActivityComponent;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.app.ThunderBoardApplication;
+import com.silabs.eggboard.common.injection.component.ActivityComponent;
+import com.silabs.eggboard.common.injection.component.DaggerActivityComponent;
 
 import timber.log.Timber;
 

@@ -1,11 +1,11 @@
-package com.silabs.thunderboard.ble.util;
+package com.silabs.eggboard.ble.util;
 
 import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattDescriptor;
 import android.bluetooth.BluetoothGattService;
 
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
 
 import java.util.ArrayList;
 import java.util.List;

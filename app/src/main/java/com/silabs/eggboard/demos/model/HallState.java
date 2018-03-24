@@ -1,12 +1,12 @@
-package com.silabs.thunderboard.demos.model;
+package com.silabs.eggboard.demos.model;
 
 import android.support.annotation.IntDef;
 
 import java.lang.annotation.Retention;
 
-import static com.silabs.thunderboard.demos.model.HallState.CLOSED;
-import static com.silabs.thunderboard.demos.model.HallState.OPENED;
-import static com.silabs.thunderboard.demos.model.HallState.TAMPERED;
+import static com.silabs.eggboard.demos.model.HallState.CLOSED;
+import static com.silabs.eggboard.demos.model.HallState.OPENED;
+import static com.silabs.eggboard.demos.model.HallState.TAMPERED;
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 
 @Retention(SOURCE)

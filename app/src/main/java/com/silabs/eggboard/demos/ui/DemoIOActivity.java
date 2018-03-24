@@ -1,15 +1,15 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
-import static com.silabs.thunderboard.common.app.ThunderBoardConstants.POWER_SOURCE_TYPE_COIN_CELL;
+import static com.silabs.eggboard.common.app.ThunderBoardConstants.POWER_SOURCE_TYPE_COIN_CELL;
 
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.app.ThunderBoardType;
-import com.silabs.thunderboard.demos.model.LedRGBState;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.app.ThunderBoardType;
+import com.silabs.eggboard.demos.model.LedRGBState;
 
 import javax.inject.Inject;
 

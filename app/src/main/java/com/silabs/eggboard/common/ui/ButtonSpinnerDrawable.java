@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.common.ui;
+package com.silabs.eggboard.common.ui;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -21,7 +21,7 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
 
-import com.silabs.thunderboard.R;
+import com.silabs.eggboard.R;
 
 import java.util.ArrayList;
 import java.util.List;

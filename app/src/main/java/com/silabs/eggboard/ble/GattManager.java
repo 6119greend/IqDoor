@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.ble;
+package com.silabs.eggboard.ble;
 
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGatt;
@@ -7,17 +7,17 @@ import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattDescriptor;
 import android.bluetooth.BluetoothProfile;
 
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
-import com.silabs.thunderboard.ble.model.ThunderBoardUuids;
-import com.silabs.thunderboard.ble.util.BleUtils;
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.demos.model.EnvironmentEvent;
-import com.silabs.thunderboard.demos.model.HallState;
-import com.silabs.thunderboard.demos.model.LedRGB;
-import com.silabs.thunderboard.demos.model.LedRGBState;
-import com.silabs.thunderboard.demos.model.MotionEvent;
-import com.silabs.thunderboard.demos.model.NotificationEvent;
-import com.silabs.thunderboard.demos.model.StatusEvent;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.ble.model.ThunderBoardUuids;
+import com.silabs.eggboard.ble.util.BleUtils;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.demos.model.EnvironmentEvent;
+import com.silabs.eggboard.demos.model.HallState;
+import com.silabs.eggboard.demos.model.LedRGB;
+import com.silabs.eggboard.demos.model.LedRGBState;
+import com.silabs.eggboard.demos.model.MotionEvent;
+import com.silabs.eggboard.demos.model.NotificationEvent;
+import com.silabs.eggboard.demos.model.StatusEvent;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

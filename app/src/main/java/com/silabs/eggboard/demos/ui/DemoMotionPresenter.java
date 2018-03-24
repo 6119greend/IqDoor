@@ -1,15 +1,15 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
-import com.silabs.thunderboard.ble.BleManager;
-import com.silabs.thunderboard.ble.ThunderBoardSensorIo;
-import com.silabs.thunderboard.ble.ThunderBoardSensorMotion;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
-import com.silabs.thunderboard.common.app.ThunderBoardType;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
-import com.silabs.thunderboard.common.injection.scope.ActivityScope;
-import com.silabs.thunderboard.demos.model.MotionEvent;
-import com.silabs.thunderboard.demos.model.NotificationEvent;
-import com.silabs.thunderboard.web.CloudManager;
+import com.silabs.eggboard.ble.BleManager;
+import com.silabs.eggboard.ble.ThunderBoardSensorIo;
+import com.silabs.eggboard.ble.ThunderBoardSensorMotion;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.common.app.ThunderBoardType;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.common.injection.scope.ActivityScope;
+import com.silabs.eggboard.demos.model.MotionEvent;
+import com.silabs.eggboard.demos.model.NotificationEvent;
+import com.silabs.eggboard.web.CloudManager;
 
 import javax.inject.Inject;
 

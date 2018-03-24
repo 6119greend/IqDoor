@@ -1,12 +1,12 @@
-package com.silabs.thunderboard.ble.model;
+package com.silabs.eggboard.ble.model;
 
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothProfile;
 
-import com.silabs.thunderboard.ble.ThunderBoardSensorEnvironment;
-import com.silabs.thunderboard.ble.ThunderBoardSensorIo;
-import com.silabs.thunderboard.ble.ThunderBoardSensorMotion;
-import com.silabs.thunderboard.common.app.ThunderBoardType;
+import com.silabs.eggboard.ble.ThunderBoardSensorEnvironment;
+import com.silabs.eggboard.ble.ThunderBoardSensorIo;
+import com.silabs.eggboard.ble.ThunderBoardSensorMotion;
+import com.silabs.eggboard.common.app.ThunderBoardType;
 
 import org.altbeacon.beacon.Beacon;
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/device_item_height">
 
-    <com.silabs.thunderboard.scanner.ui.SignalStrengthIndicator
+    <com.silabs.eggboard.scanner.ui.SignalStrengthIndicator
         style="@style/wrap"
         android:id="@+id/signal_strength"
         android:layout_alignParentRight="true"

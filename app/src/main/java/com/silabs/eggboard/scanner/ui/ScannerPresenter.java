@@ -1,9 +1,9 @@
-package com.silabs.thunderboard.scanner.ui;
+package com.silabs.eggboard.scanner.ui;
 
-import com.silabs.thunderboard.ble.BleManager;
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
-import com.silabs.thunderboard.common.injection.scope.ActivityScope;
+import com.silabs.eggboard.ble.BleManager;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.common.injection.scope.ActivityScope;
 
 import java.util.List;
 

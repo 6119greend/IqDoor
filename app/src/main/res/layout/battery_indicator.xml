@@ -14,7 +14,7 @@
         android:textSize="@dimen/text_size_S"
         android:textStyle="bold" />
 
-    <com.silabs.thunderboard.common.ui.BatteryMeter
+    <com.silabs.eggboard.common.ui.BatteryMeter
         android:id="@+id/battery_meter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

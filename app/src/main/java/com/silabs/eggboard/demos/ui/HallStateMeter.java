@@ -1,11 +1,11 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.content.Context;
 import android.graphics.BitmapFactory;
 import android.util.AttributeSet;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.demos.model.HallState;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.demos.model.HallState;
 
 public class HallStateMeter extends BaseEnvironmentMeter {
 

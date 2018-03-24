@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.common.app;
+package com.silabs.eggboard.common.app;
 
 public class ThunderBoardConstants {
     // Intent extras

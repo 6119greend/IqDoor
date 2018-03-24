@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.common.injection.scope;
+package com.silabs.eggboard.common.injection.scope;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -1,4 +1,4 @@
-package com.silabs.thunderboard;
+package com.silabs.eggboard;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

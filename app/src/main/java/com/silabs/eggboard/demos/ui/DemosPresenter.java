@@ -1,12 +1,12 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.bluetooth.BluetoothProfile;
 
-import com.silabs.thunderboard.ble.BleManager;
-import com.silabs.thunderboard.ble.ThunderBoardSensorMotion;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
-import com.silabs.thunderboard.common.injection.scope.ActivityScope;
-import com.silabs.thunderboard.demos.model.NotificationEvent;
+import com.silabs.eggboard.ble.BleManager;
+import com.silabs.eggboard.ble.ThunderBoardSensorMotion;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.common.injection.scope.ActivityScope;
+import com.silabs.eggboard.demos.model.NotificationEvent;
 
 import javax.inject.Inject;
 

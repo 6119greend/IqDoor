@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 public interface BaseDemoViewListener {
     void onWifi(boolean isConnected);

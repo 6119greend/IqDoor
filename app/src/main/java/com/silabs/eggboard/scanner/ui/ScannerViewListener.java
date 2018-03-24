@@ -1,6 +1,6 @@
-package com.silabs.thunderboard.scanner.ui;
+package com.silabs.eggboard.scanner.ui;
 
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
 
 import java.util.List;
 

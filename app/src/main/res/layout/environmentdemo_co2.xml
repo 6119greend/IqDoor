@@ -10,7 +10,7 @@
         tools:text="CARBON DIOXIDE" />
 
     <FrameLayout style="@style/envbox">
-        <com.silabs.thunderboard.demos.ui.DemoEnvironmentCO2Control
+        <com.silabs.eggboard.demos.ui.DemoEnvironmentCO2Control
             android:id="@+id/co2"
             style="@style/envcontrol" />
     </FrameLayout>

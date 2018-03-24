@@ -11,7 +11,7 @@
 
     <FrameLayout style="@style/envbox">
 
-        <com.silabs.thunderboard.demos.ui.DemoEnvironmentUVControl
+        <com.silabs.eggboard.demos.ui.DemoEnvironmentUVControl
             android:id="@+id/uv_index"
             style="@style/envcontrol" />
     </FrameLayout>

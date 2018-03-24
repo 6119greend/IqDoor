@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.scanner.ui;
+package com.silabs.eggboard.scanner.ui;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -28,12 +28,12 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
-import com.silabs.thunderboard.common.app.ThunderBoardConstants;
-import com.silabs.thunderboard.common.ui.ThunderBoardActivity;
-import com.silabs.thunderboard.demos.ui.DemosSelectionActivity;
-import com.silabs.thunderboard.settings.ui.SettingsActivity;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.common.app.ThunderBoardConstants;
+import com.silabs.eggboard.common.ui.ThunderBoardActivity;
+import com.silabs.eggboard.demos.ui.DemosSelectionActivity;
+import com.silabs.eggboard.settings.ui.SettingsActivity;
 
 import java.util.ArrayList;
 import java.util.List;

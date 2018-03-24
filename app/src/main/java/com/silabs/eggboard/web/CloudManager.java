@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.web;
+package com.silabs.eggboard.web;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -12,13 +12,13 @@ import com.firebase.client.AuthData;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.FirebaseException;
-import com.silabs.thunderboard.ble.ThunderBoardSensor;
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
-import com.silabs.thunderboard.common.injection.qualifier.ForApplication;
-import com.silabs.thunderboard.common.injection.qualifier.ForCloudData;
-import com.silabs.thunderboard.common.injection.qualifier.ForCloudDemo;
-import com.silabs.thunderboard.common.injection.qualifier.ForCloudKeyFirebase;
+import com.silabs.eggboard.ble.ThunderBoardSensor;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.common.injection.qualifier.ForApplication;
+import com.silabs.eggboard.common.injection.qualifier.ForCloudData;
+import com.silabs.eggboard.common.injection.qualifier.ForCloudDemo;
+import com.silabs.eggboard.common.injection.qualifier.ForCloudKeyFirebase;
 
 import java.util.HashMap;
 import java.util.Iterator;

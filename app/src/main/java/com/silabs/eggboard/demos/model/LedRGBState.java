@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.demos.model;
+package com.silabs.eggboard.demos.model;
 
 /**
  * Created by james.ayvaz on 6/28/16.

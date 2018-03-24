@@ -1,11 +1,11 @@
-package com.silabs.thunderboard.common.data;
+package com.silabs.eggboard.common.data;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.google.gson.Gson;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
-import com.silabs.thunderboard.common.injection.qualifier.ForApplication;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.common.injection.qualifier.ForApplication;
 
 import java.util.HashMap;
 import java.util.Locale;

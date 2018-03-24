@@ -11,7 +11,7 @@
 
     <FrameLayout style="@style/envbox">
 
-        <com.silabs.thunderboard.demos.ui.DemoEnvironmentSoundLevelControl
+        <com.silabs.eggboard.demos.ui.DemoEnvironmentSoundLevelControl
             android:id="@+id/sound_level"
             style="@style/envcontrol" />
     </FrameLayout>

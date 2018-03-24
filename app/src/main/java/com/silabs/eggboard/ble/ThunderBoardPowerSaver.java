@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.ble;
+package com.silabs.eggboard.ble;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -7,9 +7,9 @@ import android.content.Context;
 import android.os.Bundle;
 import android.os.SystemClock;
 
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
-import com.silabs.thunderboard.scanner.ui.ScannerActivity;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.scanner.ui.ScannerActivity;
 
 import org.altbeacon.beacon.BeaconManager;
 

@@ -1,12 +1,12 @@
-package com.silabs.thunderboard.common.ui;
+package com.silabs.eggboard.common.ui;
 
 import android.bluetooth.BluetoothProfile;
 import android.os.CountDownTimer;
 
-import com.silabs.thunderboard.ble.BleManager;
-import com.silabs.thunderboard.common.injection.scope.ActivityScope;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
-import com.silabs.thunderboard.demos.model.StatusEvent;
+import com.silabs.eggboard.ble.BleManager;
+import com.silabs.eggboard.common.injection.scope.ActivityScope;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.demos.model.StatusEvent;
 
 import javax.inject.Inject;
 

@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,9 +10,9 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.demos.model.LedRGB;
-import com.silabs.thunderboard.demos.model.LedRGBState;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.demos.model.LedRGB;
+import com.silabs.eggboard.demos.model.LedRGBState;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

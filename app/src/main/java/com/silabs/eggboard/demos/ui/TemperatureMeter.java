@@ -1,10 +1,9 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.data.model.ThunderBoardPreferences;
+import com.silabs.eggboard.R;
 
 public class TemperatureMeter extends BaseEnvironmentMeter {
 

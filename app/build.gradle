@@ -22,7 +22,7 @@ def isCIBuild = System.getenv()['bamboo_planName'] ? true : false
 
 // use your local.properties file to setup your own application keys and links
 Properties properties = new Properties()
-properties.load(project.rootProject.file('keystores/thunderboard.properties').newDataInputStream())
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
 /*
  * Example for the firebase urls:
  *   cloud.data.url=https://fire-inferno-0001.firebaseio.com/
@@ -54,12 +54,12 @@ buildscript {
 
 //apply plugin: 'android-sdk-manager'
 apply plugin: 'com.android.application'
-apply plugin: 'com.neenbedankt.android-apt'
+//apply plugin: 'com.neenbedankt.android-apt'
 apply plugin: 'de.felixschulze.gradle.hockeyapp'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '25.0.0'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
 
     signingConfigs {
         release {
@@ -86,8 +86,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     dexOptions {
@@ -108,16 +108,18 @@ android {
             signingConfig signingConfigs.release
         }
     }
-
+//Error:(119, 0) Cannot set the value of read-only property 'outputFile' for ApkVariantOutputImpl_Decorated{apkData=Main{type=MAIN, fullName=debug, filters=[]}} of type com.android.build.gradle.internal.api.ApkVariantOutputImpl.
+    //<a href="openFile:/root/StudioProjects/thunderboard-android/app/build.gradle">Open File</a>
     // Rename the output apk
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
-            def outputFile = output.outputFile
+            output.outputFileName = new File(output.outputFile.parent, output.outputFile.name.replace("app-release.apk", "Your_name.apk"))
+            /*def outputFile = output.outputFileName
             // don't use gitSha with dev builds because AS gets confused
             def filePrefix = isCIBuild ? "${projectName}-${variant.name}-${versionName}-${gitSha}" : "${projectName}-${variant.name}-${versionName}"
             if (outputFile != null && outputFile.name.endsWith('.apk')) {
-                output.outputFile = file("$project.buildDir/${filePrefix}.apk")
-            }
+                output.outputFileName = file("$project.buildDir/${filePrefix}.apk")
+            }*/
         }
     }
 }
@@ -125,19 +127,21 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     // Android
-    compile 'com.android.support:appcompat-v7:23.3.0'
-    compile 'com.android.support:recyclerview-v7:23.3.0'
-    compile 'com.android.support:cardview-v7:23.3.0'
-    compile 'com.android.support:mediarouter-v7:23.3.0'
-    compile 'com.android.support:palette-v7:23.3.0'
-    compile 'com.android.support:design:23.3.0'
+    compile 'com.android.support:appcompat-v7:27.1.0'
+    compile 'com.android.support:recyclerview-v7:27.1.0'
+    compile 'com.android.support:cardview-v7:27.1.0'
+    compile 'com.android.support:mediarouter-v7:27.1.0'
+    compile 'com.android.support:palette-v7:27.1.0'
+    compile 'com.android.support:design:27.1.0'
     // Timber
     compile 'com.jakewharton.timber:timber:3.1.0'
     // Butterknife
     compile 'com.jakewharton:butterknife:7.0.0'
+    annotationProcessor 'com.jakewharton:butterknife:7.0.0'
+    provided 'org.glassfish:javax.annotation:10.0-b28'
     // Dagger 2
     compile 'com.google.dagger:dagger:2.0.1'
-    apt 'com.google.dagger:dagger-compiler:2.0.1'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.0.1'
     provided 'org.glassfish:javax.annotation:10.0-b28'
     // RxJava, RxAndroid
     compile 'io.reactivex:rxjava:1.1.3'

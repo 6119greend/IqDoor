@@ -12,7 +12,7 @@
 
     <FrameLayout style="@style/envbox">
 
-        <com.silabs.thunderboard.demos.ui.DemoEnvironmentHallStrengthControl
+        <com.silabs.eggboard.demos.ui.DemoEnvironmentHallStrengthControl
             android:id="@+id/hall_strength"
             style="@style/envcontrol"
             />

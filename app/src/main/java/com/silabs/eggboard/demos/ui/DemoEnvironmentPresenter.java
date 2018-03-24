@@ -1,17 +1,17 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.os.CountDownTimer;
 import android.os.Handler;
 
-import com.silabs.thunderboard.ble.BleManager;
-import com.silabs.thunderboard.ble.ThunderBoardSensorEnvironment;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
-import com.silabs.thunderboard.ble.model.ThunderBoardUuids;
-import com.silabs.thunderboard.common.data.PreferenceManager;
-import com.silabs.thunderboard.common.injection.scope.ActivityScope;
-import com.silabs.thunderboard.demos.model.EnvironmentEvent;
-import com.silabs.thunderboard.demos.model.HallState;
-import com.silabs.thunderboard.web.CloudManager;
+import com.silabs.eggboard.ble.BleManager;
+import com.silabs.eggboard.ble.ThunderBoardSensorEnvironment;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.ble.model.ThunderBoardUuids;
+import com.silabs.eggboard.common.data.PreferenceManager;
+import com.silabs.eggboard.common.injection.scope.ActivityScope;
+import com.silabs.eggboard.demos.model.EnvironmentEvent;
+import com.silabs.eggboard.demos.model.HallState;
+import com.silabs.eggboard.web.CloudManager;
 
 import javax.inject.Inject;
 

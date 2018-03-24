@@ -1,13 +1,13 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.os.Handler;
 import android.os.Message;
 
-import com.silabs.thunderboard.ble.BleManager;
-import com.silabs.thunderboard.ble.ThunderBoardSensor;
-import com.silabs.thunderboard.common.app.ThunderBoardType;
-import com.silabs.thunderboard.web.CloudManager;
-import com.silabs.thunderboard.ble.model.ThunderBoardDevice;
+import com.silabs.eggboard.ble.BleManager;
+import com.silabs.eggboard.ble.ThunderBoardSensor;
+import com.silabs.eggboard.common.app.ThunderBoardType;
+import com.silabs.eggboard.web.CloudManager;
+import com.silabs.eggboard.ble.model.ThunderBoardDevice;
 
 import java.util.UUID;
 

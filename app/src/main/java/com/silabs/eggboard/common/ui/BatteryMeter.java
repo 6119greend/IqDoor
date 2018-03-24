@@ -1,10 +1,10 @@
-package com.silabs.thunderboard.common.ui;
+package com.silabs.eggboard.common.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.silabs.thunderboard.R;
+import com.silabs.eggboard.R;
 
 public class BatteryMeter extends ImageView {
 

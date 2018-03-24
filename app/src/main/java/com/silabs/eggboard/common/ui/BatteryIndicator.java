@@ -1,4 +1,4 @@
-package com.silabs.thunderboard.common.ui;
+package com.silabs.eggboard.common.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.common.app.ThunderBoardConstants;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.common.app.ThunderBoardConstants;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

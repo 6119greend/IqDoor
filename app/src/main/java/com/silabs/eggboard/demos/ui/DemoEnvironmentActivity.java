@@ -1,11 +1,11 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.silabs.thunderboard.R;
-import com.silabs.thunderboard.demos.model.HallState;
+import com.silabs.eggboard.R;
+import com.silabs.eggboard.demos.model.HallState;
 
 import javax.inject.Inject;
 
@@ -14,8 +14,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 import static android.view.View.GONE;
-import static com.silabs.thunderboard.common.app.ThunderBoardConstants.POWER_SOURCE_TYPE_COIN_CELL;
-import static com.silabs.thunderboard.common.app.ThunderBoardConstants.POWER_SOURCE_TYPE_UNKNOWN;
+import static com.silabs.eggboard.common.app.ThunderBoardConstants.POWER_SOURCE_TYPE_COIN_CELL;
+import static com.silabs.eggboard.common.app.ThunderBoardConstants.POWER_SOURCE_TYPE_UNKNOWN;
 
 public class DemoEnvironmentActivity extends BaseDemoActivity implements DemoEnvironmentListener {
 

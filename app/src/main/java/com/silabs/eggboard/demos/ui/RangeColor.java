@@ -1,8 +1,8 @@
-package com.silabs.thunderboard.demos.ui;
+package com.silabs.eggboard.demos.ui;
 
 import android.support.annotation.ColorRes;
 
-import com.silabs.thunderboard.R;
+import com.silabs.eggboard.R;
 
 public class RangeColor {
     interface RangeColorEnum {
