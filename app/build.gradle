@@ -113,8 +113,9 @@ android {
     //<a href="openFile:/root/StudioProjects/thunderboard-android/app/build.gradle">Open File</a>
     // Rename the output apk
     applicationVariants.all { variant ->
-        variant.outputs.each { output ->
-            output.outputFileName = new File(output.outputFile.parent, output.outputFile.name.replace("app-release.apk", "Your_name.apk"))
+        variant.outputs.all { output ->
+            //outputFileName = new File(output.outputFile.parent, output.outputFile.name.replace("app-release.apk", "Your_name.apk"))
+            outputFileName = "${variant.name}-${variant.versionName}.apk"
             /*def outputFile = output.outputFileName
             // don't use gitSha with dev builds because AS gets confused
             def filePrefix = isCIBuild ? "${projectName}-${variant.name}-${versionName}-${gitSha}" : "${projectName}-${variant.name}-${versionName}"
