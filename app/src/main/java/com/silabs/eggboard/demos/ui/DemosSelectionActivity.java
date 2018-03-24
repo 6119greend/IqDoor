@@ -187,6 +187,7 @@ public class DemosSelectionActivity extends ThunderBoardActivity implements Demo
     }
 
     private void setupDemosList() {
+        //adds Door Motion to the demosList arraylist
         demosList.add(new Demo(getString(R.string.demo_motion),
                 R.drawable.ic_motion,
                 DemoMotionActivity.class,
