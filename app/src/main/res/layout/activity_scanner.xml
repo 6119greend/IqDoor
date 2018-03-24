@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/match"
-    android:background="@color/sl_terbium_green">
+    android:background="@color/sl_red_orange">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/scanner_toolbar"
@@ -28,9 +28,11 @@
 
         <ImageView
             style="@style/wrap"
-            android:layout_marginTop="@dimen/space_XXL"
+            android:layout_width="155dp"
+            android:layout_height="165dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/logo_splash_thunderboard" />
+            android:layout_marginTop="@dimen/space_XXL"
+            android:src="@drawable/our_project" />
     </LinearLayout>
 
     <ImageView
