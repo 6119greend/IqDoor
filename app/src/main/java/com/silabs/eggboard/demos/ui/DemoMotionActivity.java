@@ -1,5 +1,6 @@
 package com.silabs.eggboard.demos.ui;
 
+import android.app.Dialog;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -11,6 +12,7 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.silabs.eggboard.R;
@@ -208,6 +210,7 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
         String accelerationString = getString(R.string.motion_acceleration_g);
         if(checkMotion(y)){
             accelerationX.setText("Motion Detected");
+            displayMsg("You got motion");
         }else{
             accelerationX.setText("No Motion");
         }
@@ -396,5 +399,15 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
         }else{
             return false;
         }
+    }
+    public static void displayMsg(String x){
+       // String temp = R.id.text1;
+        DemoMotionActivity dma = new DemoMotionActivity();
+        Dialog dialog = new Dialog(dma.getContext());
+        dialog.setContentView(R.layout.mr_chooser_dialog);
+        TextView txt = (TextView)dialog.findViewById(R.id.acceleration_y);
+        txt.setText(x);
+        dialog.show();
+        Toast.makeText(dma.getContext(), x, Toast.LENGTH_LONG);
     }
 }
