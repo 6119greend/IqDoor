@@ -21,7 +21,8 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:text="@string/motion_x"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:visibility="gone" />
 
         <TextView
             style="@style/sm_silicon_grey"
@@ -39,7 +40,8 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:text="@string/motion_y"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:visibility="gone" />
 
         <TextView
             style="@style/sm_silicon_grey"
@@ -57,7 +59,8 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:text="@string/motion_z"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:visibility="gone" />
 
         <TextView
             style="@style/sm_silicon_grey"

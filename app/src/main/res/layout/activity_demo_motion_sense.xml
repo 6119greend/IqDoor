@@ -51,12 +51,12 @@
                     layout="@layout/motiondemo_orientation"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1.25" />
+                    android:layout_weight="0" />
 
                 <FrameLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5" />
+                    android:layout_weight="0" />
 
                 <include
                     layout="@layout/motiondemo_acceleration"
