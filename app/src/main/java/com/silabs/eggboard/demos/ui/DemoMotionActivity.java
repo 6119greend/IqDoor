@@ -210,7 +210,7 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
         String accelerationString = getString(R.string.motion_acceleration_g);
         if(checkMotion(y)){
             accelerationX.setText("Motion Detected");
-            displayMsg("You got motion");
+            //displayMsg("You got motion");
         }else{
             accelerationX.setText("No Motion");
         }
@@ -400,7 +400,7 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
             return false;
         }
     }
-    public static void displayMsg(String x){
+    /*public static void displayMsg(String x){
        // String temp = R.id.text1;
         DemoMotionActivity dma = new DemoMotionActivity();
         Dialog dialog = new Dialog(dma.getContext());
@@ -409,5 +409,5 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
         txt.setText(x);
         dialog.show();
         Toast.makeText(dma.getContext(), x, Toast.LENGTH_LONG);
-    }
+    }*/
 }

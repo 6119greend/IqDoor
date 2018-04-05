@@ -60,6 +60,8 @@
     <color name="primary_color_light">#C5CAE9</color>
     <color name="accent_color">@color/sl_terbium_green</color>
 
+    <color name="flesh">#FFB252</color>
+
     <!-- Use for primary text colors -->
     <color name="grey_dark">#212121</color>
 

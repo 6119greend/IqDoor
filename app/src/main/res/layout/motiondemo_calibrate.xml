@@ -8,6 +8,6 @@
     android:background="@drawable/calibrate_background_selector"
     android:text="@string/motion_calibrate"
     android:textAllCaps="true"
-    android:textColor="@color/calibrate_text_selector"
+    android:textColor="@color/sl_blue"
     android:textSize="@dimen/motion_textsize_small"
     android:textStyle="bold"/>

@@ -100,7 +100,7 @@
     <string name="share_message">Here is the link to access your synced data. It will remain active for 30 days after your sync ends.\n%1$s\n\nLearn more about Thunderboard at %2$s.</string>
 
     <string name="motion_orientation">Orientation</string>
-    <string name="motion_acceleration">Acceleration</string>
+    <string name="motion_acceleration">Motion Activity</string>
     <string name="motion_x">X:</string>
     <string name="motion_y">Y:</string>
     <string name="motion_z">Z:</string>

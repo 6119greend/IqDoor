@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/match"
-    android:background="@color/sl_red_orange">
+    android:background="@color/flesh">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/scanner_toolbar"
@@ -32,7 +32,7 @@
             android:layout_height="165dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/space_XXL"
-            android:src="@drawable/our_project" />
+            android:src="@mipmap/rick_and_morty" />
     </LinearLayout>
 
     <ImageView

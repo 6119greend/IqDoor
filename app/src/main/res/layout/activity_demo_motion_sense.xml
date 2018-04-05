@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#FFB252">
 
     <FrameLayout
         android:id="@+id/car_animation"
@@ -25,7 +26,7 @@
         android:background="@drawable/calibrate_background_selector"
         android:text="@string/motion_calibrate"
         android:textAllCaps="true"
-        android:textColor="@color/calibrate_text_selector"
+        android:textColor="@color/sl_blue"
         android:textSize="@dimen/motion_textsize_small"
         android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="496dp"
                 android:orientation="horizontal"
                 android:paddingLeft="@dimen/space_L"
                 android:paddingRight="@dimen/space_L"
@@ -62,7 +63,7 @@
                     layout="@layout/motiondemo_acceleration"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1.25" />
+                    android:layout_weight="3" />
 
 
             </LinearLayout>
