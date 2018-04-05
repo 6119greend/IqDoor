@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Eggboard</string>
-    <string name="thunderboard">Eggboard</string>
-    <string name="Eggboard">Eggboard</string>
+    <string name="app_name">iqDoor</string>
+    <string name="thunderboard">iqDoor</string>
+    <string name="Eggboard">iqDoor</string>
     <string name="ok">OK</string>
 
     <string name="action_settings">Settings</string>

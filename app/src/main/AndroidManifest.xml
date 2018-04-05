@@ -16,7 +16,7 @@
     <application
         android:name="com.silabs.eggboard.common.app.ThunderBoardApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/iqdoor"
         android:label="@string/Eggboard"
         android:largeHeap="true"
         android:theme="@style/AppTheme">
