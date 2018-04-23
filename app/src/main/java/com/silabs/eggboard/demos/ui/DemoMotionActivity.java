@@ -1,6 +1,6 @@
-//Demo Motion Activity
 package com.silabs.eggboard.demos.ui;
 
+import android.app.Dialog;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -101,12 +101,11 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
     LinearLayout distanceContainer;
 
     private AlertDialog calibratingDialog;
-    private AlertDialog motionDialog;
     private View gdx3dView;
     private DemoMotionGdxAdapter gdxAdapter;
     private int assetType;
     private boolean sceneLoaded;
-    boolean msgActive = false;
+
     public static boolean isDemoAllowed() {
         return true;
     }
@@ -209,31 +208,15 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
     @Override
     public void setAcceleration(float x, float y, float z) {
         String accelerationString = getString(R.string.motion_acceleration_g);
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(getApplicationContext(), "You got motion", duration);
-        if(!msgActive){
-            msgActive = true;
-            AlertDialog.Builder msg = new AlertDialog.Builder(this);
-            msg.setTitle("Title");
-            msg.setCancelable(true);
-            msg.setMessage("Motion is here!");
-            motionDialog = msg.create();
-        }
         if(checkMotion(y)){
             accelerationX.setText("Motion Detected");
-            if(!motionDialog.isShowing()) {
-                toast.show();
-                motionDialog.show();
-                msgActive = true;
-            }else{
-                //Do Nada
-            }
+            //displayMsg("You got motion");
         }else{
             accelerationX.setText("No Motion");
         }
-        //  accelerationX.setText(String.format(accelerationString, x));
-        //  accelerationY.setText(String.format(accelerationString, y));
-        // accelerationZ.setText(String.format(accelerationString, z));
+      //  accelerationX.setText(String.format(accelerationString, x));
+      //  accelerationY.setText(String.format(accelerationString, y));
+       // accelerationZ.setText(String.format(accelerationString, z));
     }
 
     /**
@@ -411,13 +394,20 @@ public class DemoMotionActivity extends GdxDemoActivity implements DemoMotionLis
         carAnimationHolder.addView(gdx3dView);
     }
     public static boolean checkMotion(float x){
-        if(x > .2 || x < -.2){
+        if(x > .1 || x < -.1){
             return true;
         }else{
             return false;
         }
     }
-   /* public boolean popUpShowing(AlertDialog popUp){
-        return true;
+    /*public static void displayMsg(String x){
+       // String temp = R.id.text1;
+        DemoMotionActivity dma = new DemoMotionActivity();
+        Dialog dialog = new Dialog(dma.getContext());
+        dialog.setContentView(R.layout.mr_chooser_dialog);
+        TextView txt = (TextView)dialog.findViewById(R.id.acceleration_y);
+        txt.setText(x);
+        dialog.show();
+        Toast.makeText(dma.getContext(), x, Toast.LENGTH_LONG);
     }*/
 }
