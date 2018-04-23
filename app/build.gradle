@@ -1,3 +1,4 @@
+//build.gradle app
 def versionMajor = 1
 def versionMinor = 2
 def versionPatch = 0
@@ -51,15 +52,14 @@ buildscript {
     }
 }
 
-
 //apply plugin: 'android-sdk-manager'
 apply plugin: 'com.android.application'
 //apply plugin: 'com.neenbedankt.android-apt'
 apply plugin: 'de.felixschulze.gradle.hockeyapp'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 23
+    //  buildToolsVersion '26.0.2'
 
     signingConfigs {
         release {
@@ -83,12 +83,11 @@ android {
         buildConfigField 'String', 'CLOUD_DEMO_URL', "\"${cloudDemoUrl}\""
         buildConfigField 'String', 'KEY_FIREBASE', "\"${keyFirebase}\""
         buildConfigField 'String', 'MICROSITE_URL', "\"http://www.silabs.com/thunderboard\""
-        multiDexEnabled true
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
     }
 
     dexOptions {
@@ -114,7 +113,7 @@ android {
     // Rename the output apk
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
-            //outputFileName = new File(output.outputFile.parent, output.outputFile.name.replace("app-release.apk", "Your_name.apk"))
+            //   outputFileName = new File(output.outputFile.parent, output.outputFile.name.replace("app-release.apk", "Your_name.apk"))
             outputFileName = "${variant.name}-${variant.versionName}.apk"
             /*def outputFile = output.outputFileName
             // don't use gitSha with dev builds because AS gets confused
@@ -127,37 +126,38 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-   // implementation "com.android.support:support-compact:27.1.0"
+    implementation 'com.google.firebase:firebase-messaging:11.0.4'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     // Android
-    compile 'com.android.support:appcompat-v7:27.1.0'
-    compile 'com.android.support:recyclerview-v7:27.1.0'
-    compile 'com.android.support:cardview-v7:27.1.0'
-    compile 'com.android.support:mediarouter-v7:27.1.0'
-    compile 'com.android.support:palette-v7:27.1.0'
-    compile 'com.android.support:design:27.1.0'
+    implementation 'com.android.support:appcompat-v7:23.3.0'
+    implementation 'com.android.support:recyclerview-v7:23.3.0'
+    implementation 'com.android.support:cardview-v7:23.3.0'
+    implementation 'com.android.support:mediarouter-v7:23.3.0'
+    implementation 'com.android.support:palette-v7:23.3.0'
+    implementation 'com.android.support:design:23.3.0'
     // Timber
-    compile 'com.jakewharton.timber:timber:3.1.0'
+    implementation 'com.jakewharton.timber:timber:3.1.0'
     // Butterknife
-    compile 'com.jakewharton:butterknife:7.0.0'
+    implementation 'com.jakewharton:butterknife:7.0.0'
     annotationProcessor 'com.jakewharton:butterknife:7.0.0'
-    provided 'org.glassfish:javax.annotation:10.0-b28'
+    compileOnly 'org.glassfish:javax.annotation:10.0-b28'
+
     // Dagger 2
-    compile 'com.google.dagger:dagger:2.0.1'
+    implementation 'com.google.dagger:dagger:2.0.1'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.0.1'
-    provided 'org.glassfish:javax.annotation:10.0-b28'
+    compileOnly 'org.glassfish:javax.annotation:10.0-b28'
     // RxJava, RxAndroid
-    compile 'io.reactivex:rxjava:1.1.3'
-    compile 'io.reactivex:rxandroid:1.1.0'
+    implementation 'io.reactivex:rxjava:1.1.3'
+    implementation 'io.reactivex:rxandroid:1.1.0'
     // Gson
-    compile 'com.google.code.gson:gson:2.4'
-    // Firebase;.   
-    compile 'com.firebase:firebase-client-android:2.3.1'
+    implementation 'com.google.code.gson:gson:2.4'
+    // Firebase
+    implementation 'com.firebase:firebase-client-android:2.3.1'
     // Retrofit
-    compile 'com.squareup.retrofit:retrofit:1.9.0'
-    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    implementation 'com.squareup.retrofit:retrofit:1.9.0'
+    implementation 'com.squareup.okhttp:okhttp:2.5.0'
     // AltBeacon Android library
-    compile 'org.altbeacon:android-beacon-library:2.6.1@aar'
+    implementation 'org.altbeacon:android-beacon-library:2.6.1@aar'
 }
 
 hockeyapp {
@@ -172,6 +172,4 @@ hockeyapp {
             'debug'  : "${hockeyIdAppDebug}"
     ]
 }
-
-apply plugin: 'com.google.gms.google-services'
 
